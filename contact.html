@@ -2,99 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	
-	<!--title shows in browser tab-->
-	<title>Portfolio - Contact - Ruth-Esthel Campiz</title>
 
-	<!--reset stylesheet-->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--title shows in browser tab-->
+	<title>Portfolio - Home - Ruth-Esthel Campiz</title>
+
+	<!--linking external reset deault browser styles-->
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+	
+	<!--linking Bootstrap styles-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!--linking external stylesheet-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
 </head>
 <body>
 
-	<!--this is the header section-->
-	<header>
+	<!-- start navbar-->
+	<nav class="navbar navbar-default head">
+		<div class="container">
+	    
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#" style="background-color: #4aaaa5; color: #fff; font-weight: 700; font-size: 30px; font-family: "Georgia", Times, "Times New Roman", serif;">Ruth-Esthel Campiz</a>
+		    </div> 
 		
-		<!--main title-->
-		<h1>Ruth-Esthel Campiz</h1>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      
+	      	<ul class="nav navbar-nav navbar-right">
+	        	<li><a href="index.html">About</a></li>
+	        	<li><a href="portfolio.html">Portfolio</a></li>
+	          	<li><a href="contact.html">Contact</a></li>
+	      	</ul>
+    
+    		</div><!-- /.navbar-collapse -->
+  
+  		</div><!-- /.container-->
 
-		<!--nav-->
-		<nav>
-		
-			<!--navigation links-->
-			<ul class="nav">
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+	</nav>
+	<!--end navbar-->
 
-		</nav>
+	<!--start main content area-->
+	<div class="container main">
+		<div class="bio col-lg-5 col-md-5 col-sm-12">
 
-	</header>
+			<h2>Contact</h2>
+			<!--begin form-->
+			<form id="contact-form">
+		    	<ul>
+		        	<li>
+		            	<label for="name">Name</label>
+		            	<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+		          	</li>
+		          	<li>
+		            	<label for="email">Email</label>
+		            	<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+		          	</li>
+		          	<li>
+		            	<label for="message">Message</label>
+		            	<textarea id="message" name="message" required="required"></textarea>
+		          	</li>
+		        </ul>
+		        <input type="submit">
+		      </form>
+			<!--end form-->
 
-	<div id="container">
+		</div>
+		<div class="aside col-lg-3 col-md-3 col-sm-12">
+			<h3>Connect with Me</h3>
+			<hr>
+			<img src="assets/images/github.png" alt="github logo" class="smedia"/>
+			<img src="assets/images/linkedin.png" alt="linkedin logo" class="smedia"/>
+			<img src="assets/images/stackoverflow.png" alt="stackoverflow logo" class="smedia"/>
+		</div>
 
-		<!--main bio section-->
-		<section id="main_cont">
-
-		<!--section title-->
-		<h2>Contact</h2>
-
-		<!--horizontal rule-->
-		<hr/>
-		
-		<!--begin form-->
-		<form>
-
-			<label for="name"><p class="label">Name</label>
-			<br/>
-			<input type="text" name="Name" value="John Smith"/></p>
-			<br/>
-			<label for="email"><p class="label">Email</label>
-			<br/>
-			<input type="text" name="Email" value="example@gmail.com"/></p>
-			<br/>
-			<label for="message"><p class="label">Message</label>
-			<br/>
-			<textarea rows="10" cols="75"></textarea></p>
-			<br/>
-			<br/>
-			<input type="submit" value="Submit"/>
-
-		</form>
-		<!--end form-->
-
-	</section>	
-
-	<!--connect with me aside-->
-	<aside>
-
-		<!--aside title-->
-		<h3>Connect with Me</h3>
-
-		<hr>
-
-		<!--social media links-->
-		<ul class="smedia">
-			<li><a href="https://github.com/ruthieirl" target="_blank"><img src="assets/images/github.png" height="40px" width="40px" alt="github logo"/></a></li>
-			<li><a href="https://www.linkedin.com/in/ruthiecampiz/" target="_blank"><img src="assets/images/linkedin.png" height="40px" width="40px" alt="linkedin logo"/></a></li>
-			<li><a href="https://stackoverflow.com/users/8222071/ruthie-c?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" height="40px" width="40px" alt="stackoverflow logo"/></a></li>
-		</ul>
-	
-	</aside>
 	</div>
+	<!--end main content area-->
 
-	<div class="clear"></div>
-
-	<!--footer-->
-	<footer>
-		
-		<!--copyright info-->
-		<p class="ftr">&#169; Copyright 2017 Ruth-Esthel Campiz</p>
-
-	</footer>
-	
+	<!--start footer-->
+	<div class="navbar navbar-default nav-footer">
+		<div class="container">
+			<p>&#169; Copyright 2017 Ruth-Esthel Campiz</p>
+		</div>
+	</div>
+	<!--end footer-->
 </body>
 </html>
