@@ -63,6 +63,14 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
+#brand {
+  background-color: #4aaaa5;
+  color: #fff; 
+  font-weight: 700; 
+  font-size: 30px;
+  margin-left:0;
+}
+
 #logo {
   float: left;
   width: 250px;
@@ -257,7 +265,7 @@ input[type=submit] {
   /* footer */
 
 .colored-bar {
-  	color: #fff;
+  color: #fff;
 	font-size: 12px;
 	background-color: #666;
 	border-top: 8px solid #4aaaa5;
