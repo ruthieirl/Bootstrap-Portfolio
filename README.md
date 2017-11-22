@@ -8,7 +8,7 @@ Should you still be interested in viewing this work live, click [here](https://r
 
 **For Your Own Curiousity**
 
-The first part of this two-part homework can be found here(https://github.com/ruthieirl/Responsive-Portfolio). In short, we were to rebuild the portfolio mini-site we had built for assignment one using media queries.
+The first part of this two-part homework can be found [here](https://github.com/ruthieirl/Responsive-Portfolio). In short, we were to rebuild the portfolio mini-site we had built for assignment one using media queries.
 
 - - -
 
