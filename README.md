@@ -1,7 +1,7 @@
 -----------------------------------------
 # Bootstrap Portfolio
 
-#### HTML CSS Bootstrap  
+#### HTML * CSS * Bootstrap  
 
 
 -----------------------------------------
