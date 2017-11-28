@@ -1,4 +1,13 @@
-# Bootstrap-Portfolio
+-----------------------------------------
+# Bootstrap Portfolio
+
+#### HTML CSS Bootstrap  
+
+
+-----------------------------------------
+
+
+## What is it?
 
 This was the second part of a two-part homework assignment for the second week of the bootcamp I attended. This portion of the assignment was to rebuild the portfolio mini-site we had built for our first assignment using Bootstrap. 
 
@@ -12,4 +21,4 @@ The first part of this two-part homework can be found [here](https://github.com/
 
 - - -
 
-Ruthie Campiz © 2017 All Rights Reserved.
+Ruthie Campiz © 2017 All Rights Reserved
